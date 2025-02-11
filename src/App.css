@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.forminput-field input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.forminput-field {
+  margin: 0px 0px 20px 0px;
+}
+
+.finance-tracker-form form select {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.forminput-field input:focus {
+  outline: none;
+}
+
+.finance-tracker-form form select:focus {
+  outline: none;
+}
+
+.finance-tracker-form form button {
+  font-size: 18px;
+  padding: 7px 20px;
+  border: 1px solid #000;
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+}
+
+.finance-tracker-form form button:focus {
+  outline: none;
+}
+
+section.financetracker-sec {
+  padding: 80px 0px 30px 0px;
+}
+
+.financetracker-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 20px 0px;
+}
+
+.financetracker-head h1 {
+  font-size: 30px;
+  font-family: system-ui;
+  color: #000;
+}
+
+
+
+.financetracker-head button.financeformedit {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+    transition: all .6s ease;
+}
+
+.financetracker-head button.financeformedit:focus {
+    outline: none;
+}
+
+.financetracker-head button.financeformedit:hover {
+    background: #000;
+    color: #fff;
+}
+
+.financetracker-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.financetracker-item h4 {
+  margin: 0px;
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.financetracker-item h5 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.financetrackerbox {
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+
+.total-transaction {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total-transaction h4 {
+  font-family: cursive;
+  margin: 0px;
+}
